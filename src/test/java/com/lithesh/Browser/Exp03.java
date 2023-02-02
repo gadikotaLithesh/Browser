@@ -14,7 +14,7 @@ public class Exp03 {
         driver = new ChromeDriver();
         driver.get("https://github.com/login");
         driver.findElement(By.id("login_field")).sendKeys("gadikotalithesh@gmail.com");
-        driver.findElement(By.id("password")).sendKeys("Lithesh55@");
+        driver.findElement(By.id("password")).sendKeys("password");
         driver.findElement(By.name("commit")).click();
 
 
