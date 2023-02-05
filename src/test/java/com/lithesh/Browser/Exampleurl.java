@@ -6,16 +6,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 public class Exampleurl {
-	
+
 	@Test
 	public void test() {
 		WebDriver driver;
 		System.out.println("Welcome");
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
-		driver.get("https://facebook.com");
+		driver.get("https://google.com");
 	}
 	
-
 
 }
